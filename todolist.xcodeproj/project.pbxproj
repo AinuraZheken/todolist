@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		ACC07DF227D89CF4000FBDE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC07DF127D89CF4000FBDE5 /* AppDelegate.swift */; };
 		ACC07DF427D89CF4000FBDE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC07DF327D89CF4000FBDE5 /* SceneDelegate.swift */; };
-		ACC07DF627D89CF4000FBDE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC07DF527D89CF4000FBDE5 /* ViewController.swift */; };
 		ACC07DF927D89CF4000FBDE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC07DF727D89CF4000FBDE5 /* Main.storyboard */; };
 		ACC07DFB27D89CF8000FBDE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC07DFA27D89CF8000FBDE5 /* Assets.xcassets */; };
 		ACC07DFE27D89CF8000FBDE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC07DFC27D89CF8000FBDE5 /* LaunchScreen.storyboard */; };
 		ACC07E0927D89CF8000FBDE5 /* todolistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC07E0827D89CF8000FBDE5 /* todolistTests.swift */; };
 		ACC07E1327D89CF9000FBDE5 /* todolistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC07E1227D89CF9000FBDE5 /* todolistUITests.swift */; };
 		ACC07E1527D89CF9000FBDE5 /* todolistUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC07E1427D89CF9000FBDE5 /* todolistUITestsLaunchTests.swift */; };
+		ACC07E2427D8A458000FBDE5 /* TaskListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC07E2327D8A458000FBDE5 /* TaskListTVC.swift */; };
+		ACC07E2A27D8A69E000FBDE5 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC07E2927D8A69E000FBDE5 /* TaskCell.swift */; };
+		ACC07E2C27D8A725000FBDE5 /* TaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC07E2B27D8A725000FBDE5 /* TaskVC.swift */; };
+		ACC07E2E27D8A7FF000FBDE5 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC07E2D27D8A7FF000FBDE5 /* TaskModel.swift */; };
+		ACC07E3027D8A83D000FBDE5 /* Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC07E2F27D8A83D000FBDE5 /* Delegates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,6 @@
 		ACC07DEE27D89CF4000FBDE5 /* todolist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todolist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC07DF127D89CF4000FBDE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACC07DF327D89CF4000FBDE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ACC07DF527D89CF4000FBDE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ACC07DF827D89CF4000FBDE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACC07DFA27D89CF8000FBDE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACC07DFD27D89CF8000FBDE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		ACC07E0E27D89CF9000FBDE5 /* todolistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todolistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC07E1227D89CF9000FBDE5 /* todolistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todolistUITests.swift; sourceTree = "<group>"; };
 		ACC07E1427D89CF9000FBDE5 /* todolistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todolistUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ACC07E2327D8A458000FBDE5 /* TaskListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListTVC.swift; sourceTree = "<group>"; };
+		ACC07E2927D8A69E000FBDE5 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		ACC07E2B27D8A725000FBDE5 /* TaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskVC.swift; sourceTree = "<group>"; };
+		ACC07E2D27D8A7FF000FBDE5 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		ACC07E2F27D8A83D000FBDE5 /* Delegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +109,12 @@
 			children = (
 				ACC07DF127D89CF4000FBDE5 /* AppDelegate.swift */,
 				ACC07DF327D89CF4000FBDE5 /* SceneDelegate.swift */,
-				ACC07DF527D89CF4000FBDE5 /* ViewController.swift */,
 				ACC07DF727D89CF4000FBDE5 /* Main.storyboard */,
+				ACC07E2D27D8A7FF000FBDE5 /* TaskModel.swift */,
+				ACC07E2F27D8A83D000FBDE5 /* Delegates.swift */,
+				ACC07E2B27D8A725000FBDE5 /* TaskVC.swift */,
+				ACC07E2927D8A69E000FBDE5 /* TaskCell.swift */,
+				ACC07E2327D8A458000FBDE5 /* TaskListTVC.swift */,
 				ACC07DFA27D89CF8000FBDE5 /* Assets.xcassets */,
 				ACC07DFC27D89CF8000FBDE5 /* LaunchScreen.storyboard */,
 				ACC07DFF27D89CF8000FBDE5 /* Info.plist */,
@@ -258,9 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACC07DF627D89CF4000FBDE5 /* ViewController.swift in Sources */,
+				ACC07E2E27D8A7FF000FBDE5 /* TaskModel.swift in Sources */,
+				ACC07E2A27D8A69E000FBDE5 /* TaskCell.swift in Sources */,
+				ACC07E3027D8A83D000FBDE5 /* Delegates.swift in Sources */,
 				ACC07DF227D89CF4000FBDE5 /* AppDelegate.swift in Sources */,
 				ACC07DF427D89CF4000FBDE5 /* SceneDelegate.swift in Sources */,
+				ACC07E2C27D8A725000FBDE5 /* TaskVC.swift in Sources */,
+				ACC07E2427D8A458000FBDE5 /* TaskListTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
